@@ -47,7 +47,7 @@ const getDefaultOutput = () => {
                                 addressType: "pickup",
                                 receiverName: null,
                                 addressId: null,
-                                postalCode: "12943400",
+                                postalCode: "04626-911",
                                 city: "São Paulo",
                                 state: "SP",
                                 country: "BRA",
