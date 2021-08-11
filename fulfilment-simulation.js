@@ -20,14 +20,6 @@ const getDefaultOutput = () => {
                 shipsTo: ["BRA"],
                 slas: [
                     {
-                        id: 2,
-                        deliveryChannel: "delivery",
-                        name: "Sebas - Regular",
-                        shippingEstimate: "1bd",
-                        price: 10000,
-                        pickupStoreInfo: null,
-                    },
-                    {
                         id: "pickup-2",
                         deliveryChannel: "pickup-in-point",
                         name: "Curbside pickup",
