@@ -28,7 +28,7 @@ const getDefaultOutput = () => {
                         pickupStoreInfo: null,
                     },
                     {
-                        id: 1,
+                        id: 2,
                         deliveryChannel: "delivery",
                         name: "Express",
                         shippingEstimate: "4h",
@@ -36,7 +36,7 @@ const getDefaultOutput = () => {
                         pickupStoreInfo: null,
                     },
                     {
-                        id: 2,
+                        id: 3,
                         deliveryChannel: "pickup-in-point",
                         name: "Petrobras Pickup",
                         shippingEstimate: "3bd",
