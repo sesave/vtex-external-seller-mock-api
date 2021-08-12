@@ -112,7 +112,7 @@ const getDefaultOutput = () => {
                         availableDeliveryWindows: [],
                         pickupStoreInfo: {
                             isPickupStore: true,
-                            friendlyName: "Ta-Ta Express",
+                            friendlyName: "Ta-Ta Express Montevideo",
                             address: {
                                 addressType: "pickup",
                                 receiverName: null,
