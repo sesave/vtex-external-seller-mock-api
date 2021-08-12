@@ -46,7 +46,7 @@ const getDefaultOutput = () => {
                             address: {
                                 addressType: "pickup",
                                 receiverName: null,
-                                addressId: null,
+                                addressId: "548304ed-dd40-4416-b12b-4b32bfa7b1e0",
                                 postalCode: "04626-911",
                                 city: "São Paulo",
                                 state: "SP",
@@ -105,8 +105,12 @@ const getDefaultOutput = () => {
                 deliveryChannels: [
                     {
                         id: "delivery",
-                        stockBalance: 1024,
+                        stockBalance: 1000,
                     },
+                    {
+                        id: "pickup-in-point",
+                        stockBalance: 24, 
+                    }
                 ],
             },
         ],
