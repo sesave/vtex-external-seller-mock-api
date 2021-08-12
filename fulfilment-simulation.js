@@ -5,9 +5,9 @@ const getDefaultOutput = () => {
                 requestIndex: 0,
                 attachmentOfferings: [],
                 id: "9999",
-                listPrice: 67203,
+                listPrice: 150000,
                 offerings: [],
-                price: 67203,
+                price: 150000,
                 priceValidUntil: null,
                 quantity: 1,
                 seller: 1,
@@ -22,27 +22,29 @@ const getDefaultOutput = () => {
                     {
                         id: 1,
                         deliveryChannel: "delivery",
-                        name: "LAB - Regular",
+                        name: "Standard",
                         shippingEstimate: "1bd",
-                        price: 846,
+                        price: 550,
+                        pickupStoreInfo: null,
+                    },
+                    {
+                        id: 1,
+                        deliveryChannel: "delivery",
+                        name: "Express",
+                        shippingEstimate: "4h",
+                        price: 1050,
                         pickupStoreInfo: null,
                     },
                     {
                         id: 2,
                         deliveryChannel: "pickup-in-point",
-                        name: "Curbside pickup",
-                        shippingEstimate: "0bd",
+                        name: "Petrobras Pickup",
+                        shippingEstimate: "3bd",
                         price: 0,
-                        availableDeliveryWindows: [
-                            {
-                                startDateUtc: "2021-08-11T08:00:00+00:00",
-                                endDateUtc: "2021-12-12T13:00:00+00:00",
-                                price: 0,
-                            },
-                        ],
+                        availableDeliveryWindows: [],
                         pickupStoreInfo: {
                             isPickupStore: true,
-                            friendlyName: "Shell Pickup Simulation",
+                            friendlyName: "Petrobras Pickup",
                             address: {
                                 addressType: "pickup",
                                 receiverName: null,
@@ -68,16 +70,9 @@ const getDefaultOutput = () => {
                         id: "carrefourbrscanandgo_XSB",
                         deliveryChannel: "pickup-in-point",
                         name: "Ta-Ta Express",
-                        shippingEstimate: "0bd",
+                        shippingEstimate: "2bd",
                         price: 0,
-                        availableDeliveryWindows: [
-                            {
-                                startDateUtc: "2021-08-12T08:00:00+00:00",
-                                endDateUtc: "2021-08-21T17:00:00+00:00",
-                                price: 0,
-                            },
-                        ],
-                        distance: 0.313686341047287,
+                        availableDeliveryWindows: [],
                         pickupStoreInfo: {
                             isPickupStore: true,
                             friendlyName: "Ta-Ta Express",
@@ -97,44 +92,7 @@ const getDefaultOutput = () => {
                                 reference: null,
                                 geoCoordinates: [-46.63686, -23.54889],
                             },
-                            additionalInfo: "",
-                            businessHours: [
-                                {
-                                    DayOfWeek: 0,
-                                    OpeningTime: "09:00:00",
-                                    ClosingTime: "16:00:00",
-                                },
-                                {
-                                    DayOfWeek: 1,
-                                    OpeningTime: "07:00:00",
-                                    ClosingTime: "21:00:00",
-                                },
-                                {
-                                    DayOfWeek: 2,
-                                    OpeningTime: "07:00:00",
-                                    ClosingTime: "21:00:00",
-                                },
-                                {
-                                    DayOfWeek: 3,
-                                    OpeningTime: "07:00:00",
-                                    ClosingTime: "21:00:00",
-                                },
-                                {
-                                    DayOfWeek: 4,
-                                    OpeningTime: "07:00:00",
-                                    ClosingTime: "21:00:00",
-                                },
-                                {
-                                    DayOfWeek: 5,
-                                    OpeningTime: "07:00:00",
-                                    ClosingTime: "21:00:00",
-                                },
-                                {
-                                    DayOfWeek: 6,
-                                    OpeningTime: "07:00:00",
-                                    ClosingTime: "21:00:00",
-                                },
-                            ],
+                            additionalInfo: ""
                         },
                     },
                 ],
