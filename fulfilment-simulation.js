@@ -67,20 +67,20 @@ const getDefaultOutput = () => {
                     {
                         id: "carrefourbrscanandgo_XSB",
                         deliveryChannel: "pickup-in-point",
-                        name: "Ta-Ta Express São Bento",
+                        name: "Ta-Ta Express",
                         shippingEstimate: "0bd",
                         price: 0,
                         availableDeliveryWindows: [
                             {
                                 startDateUtc: "2021-08-12T08:00:00+00:00",
-                                endDateUtc: "2021-12-12T13:00:00+00:00",
+                                endDateUtc: "2021-08-21T17:00:00+00:00",
                                 price: 0,
                             },
                         ],
                         distance: 0.313686341047287,
                         pickupStoreInfo: {
                             isPickupStore: true,
-                            friendlyName: "Ta-Ta Express São Bento",
+                            friendlyName: "Ta-Ta Express",
                             address: {
                                 addressType: "pickup",
                                 receiverName: null,
