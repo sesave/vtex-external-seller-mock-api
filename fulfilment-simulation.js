@@ -20,7 +20,7 @@ const getDefaultOutput = () => {
                 shipsTo: ["BRA"],
                 slas: [
                     {
-                        id: 1,
+                        id: "Standard",
                         deliveryChannel: "delivery",
                         name: "Standard",
                         shippingEstimate: "2bd",
@@ -28,7 +28,7 @@ const getDefaultOutput = () => {
                         pickupStoreInfo: null,
                     },
                     {
-                        id: 2,
+                        id: "Express",
                         deliveryChannel: "delivery",
                         name: "Express",
                         shippingEstimate: "4h",
@@ -36,9 +36,9 @@ const getDefaultOutput = () => {
                         pickupStoreInfo: null,
                     },
                     {
-                        id: 3,
+                        id: "1 Day",
                         deliveryChannel: "delivery",
-                        name: "Express",
+                        name: "1 Day",
                         shippingEstimate: "1bd",
                         price: 850,
                         pickupStoreInfo: null,
