@@ -61,6 +61,43 @@ const getDefaultOutput = () => {
                                 ],
                             },
                             additionalInfo: "",
+                            businessHours: [
+                                {
+                                    DayOfWeek: 0,
+                                    OpeningTime: "00:00:00",
+                                    ClosingTime: "00:00:00",
+                                },
+                                {
+                                    DayOfWeek: 1,
+                                    OpeningTime: "00:00:00",
+                                    ClosingTime: "00:00:00",
+                                },
+                                {
+                                    DayOfWeek: 2,
+                                    OpeningTime: "00:00:00",
+                                    ClosingTime: "00:00:00",
+                                },
+                                {
+                                    DayOfWeek: 3,
+                                    OpeningTime: "00:00:00",
+                                    ClosingTime: "00:00:00",
+                                },
+                                {
+                                    DayOfWeek: 4,
+                                    OpeningTime: "00:00:00",
+                                    ClosingTime: "00:00:00",
+                                },
+                                {
+                                    DayOfWeek: 5,
+                                    OpeningTime: "00:00:00",
+                                    ClosingTime: "00:00:00",
+                                },
+                                {
+                                    DayOfWeek: 6,
+                                    OpeningTime: "00:00:00",
+                                    ClosingTime: "00:00:00",
+                                },
+                            ],
                         },
                     },
                 ],
