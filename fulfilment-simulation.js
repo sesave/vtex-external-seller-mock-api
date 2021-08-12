@@ -42,11 +42,12 @@ const getDefaultOutput = () => {
                         ],
                         pickupStoreInfo: {
                             isPickupStore: true,
-                            friendlyName: "Shell",
+                            friendlyName: "Shell Pickup Simulation",
                             address: {
                                 addressType: "pickup",
                                 receiverName: null,
-                                addressId: "548304ed-dd40-4416-b12b-4b32bfa7b1e0",
+                                addressId:
+                                    "548304ed-dd40-4416-b12b-4b32bfa7b1e0",
                                 postalCode: "04626-911",
                                 city: "São Paulo",
                                 state: "SP",
@@ -63,6 +64,79 @@ const getDefaultOutput = () => {
                             additionalInfo: "",
                         },
                     },
+                    {
+                        id: "carrefourbrscanandgo_XSB",
+                        deliveryChannel: "pickup-in-point",
+                        name: "Ta-Ta Express São Bento",
+                        shippingEstimate: "0bd",
+                        price: 0,
+                        availableDeliveryWindows: [
+                            {
+                                startDateUtc: "2021-08-12T08:00:00+00:00",
+                                endDateUtc: "2021-12-12T13:00:00+00:00",
+                                price: 0,
+                            },
+                        ],
+                        distance: 0.313686341047287,
+                        pickupStoreInfo: {
+                            isPickupStore: true,
+                            friendlyName: "Ta-Ta Express São Bento",
+                            address: {
+                                addressType: "pickup",
+                                receiverName: null,
+                                addressId:
+                                    "548304ed-dd40-4416-b12b-4b32bfa7b1e0",
+                                postalCode: "01003-000",
+                                city: "São Paulo",
+                                state: "SP",
+                                country: "BRA",
+                                street: "",
+                                number: "",
+                                neighborhood: "",
+                                complement: "",
+                                reference: null,
+                                geoCoordinates: [-46.63686, -23.54889],
+                            },
+                            additionalInfo: "",
+                            businessHours: [
+                                {
+                                    DayOfWeek: 0,
+                                    OpeningTime: "09:00:00",
+                                    ClosingTime: "16:00:00",
+                                },
+                                {
+                                    DayOfWeek: 1,
+                                    OpeningTime: "07:00:00",
+                                    ClosingTime: "21:00:00",
+                                },
+                                {
+                                    DayOfWeek: 2,
+                                    OpeningTime: "07:00:00",
+                                    ClosingTime: "21:00:00",
+                                },
+                                {
+                                    DayOfWeek: 3,
+                                    OpeningTime: "07:00:00",
+                                    ClosingTime: "21:00:00",
+                                },
+                                {
+                                    DayOfWeek: 4,
+                                    OpeningTime: "07:00:00",
+                                    ClosingTime: "21:00:00",
+                                },
+                                {
+                                    DayOfWeek: 5,
+                                    OpeningTime: "07:00:00",
+                                    ClosingTime: "21:00:00",
+                                },
+                                {
+                                    DayOfWeek: 6,
+                                    OpeningTime: "07:00:00",
+                                    ClosingTime: "21:00:00",
+                                },
+                            ],
+                        },
+                    },
                 ],
                 stockBalance: 1024,
                 deliveryChannels: [
@@ -72,8 +146,8 @@ const getDefaultOutput = () => {
                     },
                     {
                         id: "pickup-in-point",
-                        stockBalance: 24, 
-                    }
+                        stockBalance: 24,
+                    },
                 ],
             },
         ],
