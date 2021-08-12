@@ -46,7 +46,7 @@ const getDefaultOutput = () => {
                             address: {
                                 addressType: "pickup",
                                 receiverName: null,
-                                addressId: "548304ed-dd40-4416-b12b-4b32bfa7b1e0",
+                                addressId: null,
                                 postalCode: "04626-911",
                                 city: "São Paulo",
                                 state: "SP",
@@ -61,43 +61,6 @@ const getDefaultOutput = () => {
                                 ],
                             },
                             additionalInfo: "",
-                            businessHours: [
-                                {
-                                    DayOfWeek: 0,
-                                    OpeningTime: "00:00:00",
-                                    ClosingTime: "00:00:00",
-                                },
-                                {
-                                    DayOfWeek: 1,
-                                    OpeningTime: "00:00:00",
-                                    ClosingTime: "00:00:00",
-                                },
-                                {
-                                    DayOfWeek: 2,
-                                    OpeningTime: "00:00:00",
-                                    ClosingTime: "00:00:00",
-                                },
-                                {
-                                    DayOfWeek: 3,
-                                    OpeningTime: "00:00:00",
-                                    ClosingTime: "00:00:00",
-                                },
-                                {
-                                    DayOfWeek: 4,
-                                    OpeningTime: "00:00:00",
-                                    ClosingTime: "00:00:00",
-                                },
-                                {
-                                    DayOfWeek: 5,
-                                    OpeningTime: "00:00:00",
-                                    ClosingTime: "00:00:00",
-                                },
-                                {
-                                    DayOfWeek: 6,
-                                    OpeningTime: "00:00:00",
-                                    ClosingTime: "00:00:00",
-                                },
-                            ],
                         },
                     },
                 ],
