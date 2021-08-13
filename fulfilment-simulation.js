@@ -12,6 +12,17 @@ const getDefaultOutput = () => {
                 quantity: 1,
                 seller: 1,
             },
+            {
+                requestIndex: 0,
+                attachmentOfferings: [],
+                id: "9999",
+                listPrice: 140000,
+                offerings: [],
+                price: 140000,
+                priceValidUntil: null,
+                quantity: 1,
+                seller: 1,
+            },
         ],
         logisticsInfo: [
             {
