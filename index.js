@@ -21,6 +21,7 @@ app.use((req, res, next) => {
 // Routes
 app.post('/pvt/orderForms/simulation', fulfilmentSimulationController);
 app.post('/pvt/orders', orderPlacementController);
+app.get('/pvt/orders', orderPlacementController);
 app.post('/pvt/orders/:orderId/fulfill', orderDispatchingController);
 app.post('/pvt/orders/:orderId/cancel', orderCancelController);
 
