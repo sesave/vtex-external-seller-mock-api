@@ -11,7 +11,7 @@ const getDefaultOutput = () => {
                 priceValidUntil: null,
                 quantity: 1,
                 seller: 1,
-            }
+            },
         ],
         logisticsInfo: [
             {
@@ -44,36 +44,6 @@ const getDefaultOutput = () => {
                         pickupStoreInfo: null,
                     },
                     {
-                        id: "ta-ta-cavia",
-                        deliveryChannel: "pickup-in-point",
-                        name: "Ta-Ta Sucursal Cavia",
-                        shippingEstimate: "2bd",
-                        price: 0,
-                        availableDeliveryWindows: [],
-                        pickupStoreInfo: {
-                            isPickupStore: true,
-                            friendlyName: "Ta-Ta Sucursal Cavia",
-                            address: {
-                                addressType: "pickup",
-                                receiverName: null,
-                                addressId: "ta-ta-cavia",
-                                postalCode: "11300",
-                                city: "Montevideo",
-                                state: "Montevideo",
-                                country: "URY",
-                                street: "Luis B. Cavia",
-                                number: "2610",
-                                neighborhood: null,
-                                complement: "",
-                                reference: null,
-                                geoCoordinates: [
-                                    -56.1577, -34.90799
-                                ],
-                            },
-                            additionalInfo: "",
-                        },
-                    },
-                    {
                         id: "ta-ta-carrasco",
                         deliveryChannel: "pickup-in-point",
                         name: "Ta-Ta Camino Carrasco",
@@ -97,8 +67,37 @@ const getDefaultOutput = () => {
                                 complement: "",
                                 reference: null,
                                 geoCoordinates: [
-                                    -56.1204465289207,-34.71270478845907
+                                    -56.1204465289207,
+                                    -34.71270478845907,
                                 ],
+                            },
+                            additionalInfo: "",
+                        },
+                    },
+                    {
+                        id: "ta-ta-cavia",
+                        deliveryChannel: "pickup-in-point",
+                        name: "Ta-Ta Sucursal Cavia",
+                        shippingEstimate: "2bd",
+                        price: 0,
+                        availableDeliveryWindows: [],
+                        pickupStoreInfo: {
+                            isPickupStore: true,
+                            friendlyName: "Ta-Ta Sucursal Cavia",
+                            address: {
+                                addressType: "pickup",
+                                receiverName: null,
+                                addressId: "ta-ta-cavia",
+                                postalCode: "11300",
+                                city: "Montevideo",
+                                state: "Montevideo",
+                                country: "URY",
+                                street: "Luis B. Cavia",
+                                number: "2610",
+                                neighborhood: null,
+                                complement: "",
+                                reference: null,
+                                geoCoordinates: [-56.1577, -34.90799],
                             },
                             additionalInfo: "",
                         },
