@@ -3,7 +3,7 @@ module.exports = (req, res) => {
     for (const order of req.body) {
         result.push({
             orderId: Math.round(Math.random() * 100000000000) + "-A",
-            followUpEmail: "gaetan.lemoing+clientfollowup@mirakl.com",
+            followUpEmail: "paula.sandoli@acct.global",
             ...order
         })
     }
